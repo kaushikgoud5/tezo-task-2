@@ -1,0 +1,363 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.employee-main-page {
+  display: flex;
+}
+.side-nav {
+  /* width: 20%; */
+}
+.all {
+  margin: 15px;
+}
+.employee {
+  /* width: 80%; */
+}
+.logo-tezo img {
+  margin: 15px;
+}
+.all-heading {
+  color: #bdc5cc;
+  font-size: 13px;
+}
+.dashboard {
+  padding: 7px;
+  display: flex;
+  color: #6e7378;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 5px;
+  cursor: pointer;
+  /* width: 60%; */
+}
+.emp-dashboard {
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  color: #6e7378;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #fde9e9;
+  border-radius: 5px;
+  color: #f66b6b;
+  cursor: pointer;
+  /* width: 60%; */
+}
+.show {
+  display: none;
+}
+.hide-navbar {
+  /* transition-property: all; */
+  /* transition-duration: 3s;
+  transform: translate(-100%); */
+  display: none;
+  /* visibility: hidden; */
+  /* transition-timing-function: ease-in-out; */
+}
+.close-button{
+  cursor: pointer;
+}
+.drop-arrow {
+  transform: rotate(270deg);
+}
+.rotate-arrow {
+  transform: rotate(180deg);
+  transition-duration: 1s;
+}
+.dash-head {
+  width: 80%;
+  padding-left: 8px;
+}
+.list-items ul {
+  padding-inline-start: 24px;
+}
+.list-items ul li {
+  cursor: pointer;
+  padding-left: 10px;
+  font-weight: 600;
+  color: #6e7378;
+  margin: 10px;
+  font-size: 12px;
+}
+.departments {
+  margin: 30px 15px;
+}
+.departments > span {
+  color: #bdc5cc;
+  font-size: 13px;
+}
+.department-list-items ul {
+  padding-inline-start: 24px;
+}
+.department-list-items > ul > li > div {
+  display: flex;
+  justify-content: space-between;
+}
+.light-red-theme {
+  background-color: #feeeee;
+  color: #f55b5b;
+  width: 27px;
+  border-radius: 42%;
+  /* height: 24px; */
+  padding: 4px;
+  text-align: center;
+}
+.dark-red-theme {
+  background-color: #f44848;
+  color: white;
+  width: 27px;
+  border-radius: 42%;
+  /* height: 24px; */
+  padding: 4px;
+  text-align: center;
+}
+.department-list-items ul li {
+  padding-inline-start: 24px;
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  color: #6e7378;
+  margin: 10px;
+  cursor: pointer;
+}
+.role-user {
+  margin: 35px 15px;
+  font-size: 12px;
+}
+.role-heading {
+  color: #bdc5cc;
+}
+.install-update {
+  margin: 15px 5px;
+  background-color: #fef6f6;
+  border-radius: 10px;
+  padding: 16px;
+  /* width: 60%; */
+}
+.new-update {
+  color: #f55555;
+  font-weight: bold;
+  font-size: 12px;
+}
+.allow-launch {
+  color: #b9b9b9;
+  font-size: 12px;
+}
+
+.accept-reject-btns {
+  display: flex;
+}
+.btn-dismiss {
+  background-color: #fde6e6;
+  color: #f55a5a;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 7px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.btn-accept {
+  color: #fde6e6;
+  border: 0;
+  border-radius: 5px;
+  background-color: #f44848;
+  padding: 10px;
+  margin: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.top-bar {
+  display: flex;
+  align-items: center
+}
+.top-search-bar {
+  display: flex;
+  width: 100%;
+  padding-left: 10px;
+  box-shadow: 0px 1px 20px 4px #edebe4;
+  border-radius: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+.seacrh-icon {
+  padding-left: 10px;
+}
+.search-box input {
+  padding:   15px 15px 15px 30px;
+  margin: 5px;
+  border: 0;
+  width: 33rem;
+  background: url(/Task2/assets/bx-search.png) no-repeat;
+  background-position: left center;
+}
+.img-user {
+  width: 35px;
+  margin-left: 10px;
+}
+.user-profile {
+  margin: 0px 10px;
+}
+.john {
+  margin: 2px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.admin {
+  font-size: 12px;
+  font-weight: bold;
+}
+.search-drop-down {
+  padding: 10px;
+  margin-left: 10px;
+}
+.employees-section {
+  margin: 10px 0px 10px 37px;
+  display: flex;
+  justify-content: space-between;
+}
+.emp-right {
+  display: flex;
+}
+.emp-fs-clr {
+  font-size: 22px;
+  font-weight: bold;
+  color: #4e6172;
+}
+.emp-desc-fs-clr {
+  font-size: 12px;
+  color: #aeb7be;
+  font-weight: bold;
+}
+.btn-export {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  gap: 0.5em;
+  color: #8894a5;
+  background-color: #fff;
+  font-weight: bold;
+}
+.btn-add-emp {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+  gap: 0.5em;
+  color: #ffffff;
+  background-color: #f44848;
+  cursor: pointer;
+}
+.alphabets-section {
+  display: flex;
+  margin: 25px 0px 20px 37px;
+}
+.alphabets-section span {
+  cursor: pointer;
+}
+.delete img {
+  cursor: pointer;
+}
+.btn-delete {
+  cursor: pointer;
+  padding: 5px 15px;
+  margin-left: 15px;
+  border: 0;
+  background-color: #f89191;
+  color: #fef3f3;
+  border-radius: 5px;
+}
+.add-table {
+  padding-right: 20px;
+  cursor: pointer;
+}
+.table-top {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e9e9e9;
+  padding: 15px 17px;
+  align-items: center;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
+.e-mail {
+  font-size: 10px;
+  color: #67748d;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+tr {
+  border: 1px solid #e9e9e9;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  color: #484848;
+  font-weight: bold;
+}
+th,
+td {
+  padding: 6px 12px;
+}
+thead th {
+  background-color: #fafafc;
+  color: #68758e;
+  text-align: start;
+  font-size: 12px;
+  color: #5e6c86;
+}
+
+tr input {
+  cursor: pointer;
+}
+
+tr:nth-child(4) {
+  background-color: #fff4f4;
+}
+td:nth-child(7) span {
+  background-color: #e7f4e8;
+  color: #599f88;
+  border-radius: 5px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+td img {
+  width: 35px;
+}
+.user-info {
+  display: flex;
+}
+.name-email {
+  margin-left: 10px;
+}
+
+.alphabets {
+  margin-left: 15px;
+  cursor: pointer;
+}
+#alpha-c {
+  background-color: #f44848;
+  color: white;
+}
+.alphabets span {
+  color: #8693a4;
+  background-color: #eaebee;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 4px;
+}
+.emp-table {
+  box-shadow: 0px 0px 20px 0px #e1d2d2;
+  margin: 10px 0px 10px 37px;
+  border-radius: 10px;
+}
